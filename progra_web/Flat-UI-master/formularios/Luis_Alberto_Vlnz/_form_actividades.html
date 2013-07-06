@@ -1,0 +1,54 @@
+<html>
+<head>
+<TITLE> ACTIVIDADES</title>
+</head>
+
+<link rel="StyleSheet" href="../../bootstrap/css/bootstrap.css" type="text/css">
+<link rel="StyleSheet" href="../../bootstrap/css/bootstrap-docs.css" type="text/css">
+<link rel="StyleSheet" href="../../bootstrap/css/bootstrap-responsive.css" type="text/css">
+<link rel="StyleSheet" href="../../bootstrap/css/prettify.css" type="text/css">
+<link rel="StyleSheet" href="../../js/application.js" type="text/css">
+<link rel="StyleSheet" href="../../js/bootstrap-select.js" type="text/css">
+<link rel="StyleSheet" href="../index.html" type="text/css">
+
+
+
+
+<body >
+
+<!Formulario para agregar las actividades>
+<form method="post">
+<h3>REGISTRO DE ACTIVIDADES</H3>
+
+TIPO_ACTIVIDAD:<br>
+<select>
+<option id="tactividad" value="conferencia">Conferencia</option>
+<option value="taller">Taller</option>
+<option value="administrador">Administrador</option>
+</select><br>
+<label for="nombre">  NOMBRE:</label> <INPUT TYPE="TEXT" ID="nombre" name="nombre"/><br>
+<label for="lugares">LUGARES:</label> <input type="number" id="lugares" name="lugares" min="1" max ="30" /><br>
+<label for="precios">PRECIOS:</label><input type="number" id="precios" name="precios" min="0" max ="300" /><br>
+<label for="descripcion">DESCRIPCION:</label><textarea  rows="4" cols="50" name="descripcion" id="descripcion" ></textarea><BR>
+
+INSTRUCTOR<BR>
+<select>
+
+<option value="tallerista">JUAN BALDERAS</option>
+<option value="tallerista">LUIS VALENZUELA</option>
+<option value="conferencista">YARITZA DENYS</option>
+
+</select><BR><BR>
+
+<div class="span3">
+          <a href="" class="btn btn-large btn-block btn-primary">GUARDAR</a>
+        </div>
+		<div class="span3">
+          <a href="index.html" class="btn btn-large btn-block btn-primary">REGRESAR A MENU</a>
+        </div>
+</FORM>
+
+    
+
+</body>
+</html>
